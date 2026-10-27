@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the manuscript."
+title: "Did the News Move the Price? Event-Study Evidence from 70 News Events on the Dhaka Stock Exchange"
+type: software
+authors:
+  - family-names: Rahman
+    given-names: Md Asiqur
+    email: asiq@asiqrahman.com
+    affiliation: "Department of Banking and Insurance, University of Dhaka"
+repository-code: "https://github.com/asiqurgem26-del/dse-news-impact"
+url: "https://github.com/asiqurgem26-del/dse-news-impact"
+abstract: >-
+  Replication package for an event-impact study of company-specific news on the Dhaka Stock
+  Exchange, with three abnormal-return models and a same-firm placebo comparison.
+keywords:
+  - event study
+  - news impact
+  - abnormal returns
+  - Dhaka Stock Exchange
+  - market efficiency
+license: MIT
+date-released: 2026-10-28
+references:
+  - type: article
+    title: "Did the News Move the Price? Event-Study Evidence from 70 News Events on the Dhaka Stock Exchange"
+    authors:
+      - family-names: Rahman
+        given-names: Md Asiqur
+    year: 2026

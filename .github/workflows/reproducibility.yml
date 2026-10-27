@@ -1,0 +1,23 @@
+name: reproducibility
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    name: Rebuild the event-impact results
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Event-impact analysis
+        run: python code/event_impact.py
+      - name: Bootstrap intervals and power
+        run: python code/impact_extras.py

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build artefacts
+*.log
+*.aux
+*.blg
+*.bbl
+*.out
+*.xdv
+*.zip
+
+# Local data with third-party article text (not redistributed)
+data/articles.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
